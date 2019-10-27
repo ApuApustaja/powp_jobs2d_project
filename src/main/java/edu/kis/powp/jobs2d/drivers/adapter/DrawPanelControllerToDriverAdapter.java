@@ -29,6 +29,7 @@ public class DrawPanelControllerToDriverAdapter extends DrawPanelController impl
 		line.setEndCoordinates(x, y);
 		setPosition(x, y);
 		DrawerFeature.getDrawerController().drawLine(line);
+
 	}
 
 	@Override
