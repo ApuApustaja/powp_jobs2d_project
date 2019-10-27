@@ -1,8 +1,6 @@
 package edu.kis.powp.jobs2d.commander;
 
-public class OperateToCommand implements DriverCommand {
-    private int x;
-    private int y;
+public class OperateToCommand extends PositionCommand {
     @Override
     public void execute() {
 
