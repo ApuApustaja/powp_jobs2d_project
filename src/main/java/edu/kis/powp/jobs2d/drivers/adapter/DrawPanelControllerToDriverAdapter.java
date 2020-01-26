@@ -29,11 +29,12 @@ public class DrawPanelControllerToDriverAdapter extends DrawPanelController impl
 		line.setEndCoordinates(x, y);
 		setPosition(x, y);
 		DrawerFeature.getDrawerController().drawLine(line);
+		this.setPosition(x,y);
 
 	}
 
 	@Override
 	public String toString() {
-		return "@Q!$!@$!#@$(*#@&Q(%^*#@";
+		return "DrawPanelControllerAdapter";
 	}
 }
